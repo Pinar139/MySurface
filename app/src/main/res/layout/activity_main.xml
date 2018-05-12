@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pinarmnkl.mysurface.MainActivity"
+    android:weightSum="1">
+
+
+    <!--<ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/resim_show"
+
+        android:layout_above="@+id/capturer"
+        android:layout_alignParentStart="true" /> -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:id="@+id/grey"
+        android:layout_marginTop="115dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/capturer" />
+
+
+    <SurfaceView
+
+        android:id="@+id/surfaceView"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/face_detection"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Face Detection"
+        android:background="@drawable/round_button"
+        android:layout_alignTop="@+id/capturer"
+        android:layout_toEndOf="@+id/capturer" />
+
+    <Button
+        android:id="@+id/capturer"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Make Photo "
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp" />
+    <Button
+        android:id="@+id/test"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Test"
+        android:background="@drawable/round_button"
+        android:layout_alignTop="@+id/face_detection"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp" />
+    <Button
+        android:id="@+id/test_resim"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Test resim"
+        android:background="@drawable/round_button"
+        android:layout_alignTop="@+id/face_detection"
+        android:layout_toStartOf="@+id/test" />
+
+</RelativeLayout>

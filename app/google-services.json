@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1011208747428",
+    "firebase_url": "https://tezresim.firebaseio.com",
+    "project_id": "tezresim",
+    "storage_bucket": "tezresim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011208747428:android:d841ca06ab7229a5",
+        "android_client_info": {
+          "package_name": "com.example.pinarmnkl.mysurface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011208747428-loktqef3ek9lsesme962f3d5s6rqrm1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pinarmnkl.mysurface",
+            "certificate_hash": "d22825b872301501028f4814caf9a97224f7ebd6"
+          }
+        },
+        {
+          "client_id": "1011208747428-0t0oaq77ttaimalb8ni7cs6cmbp6tcrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMcAN08KGODOgiwcyfm1jpJQGL907kY-g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011208747428-0t0oaq77ttaimalb8ni7cs6cmbp6tcrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
